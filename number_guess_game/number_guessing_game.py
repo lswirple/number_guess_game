@@ -9,7 +9,6 @@ def main():
             quit_ans = input("Are you sure you want to quit? Score won't be saved. ")
             if str(quit_ans.lower()) == 'yes':
                 break
-                break
             elif str(quit_ans.lower()) == 'no':
                 print("No worries! Enjoy playing.")
                 num_input = input("This is a random number guessing game, pick what you want the numbers to go up to: ")
